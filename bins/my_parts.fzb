@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="1.0.1rc.2023-09-04.CD-1653-0-8d480a18" icon="Mine.png">
+    <title>My Parts</title>
+    <instances>
+        <instance moduleIdRef="rfm95w_386bd74672d4a9910f11db2572040f30_2" modelIndex="5784" path="/Users/toddbu/Documents/Fritzing/parts/user/rfm95w_386bd74672d4a9910f11db2572040f30_2.fzp" flippedSMD="true">
+            <property name="flippedSMD" value="true"/>
+            <views/>
+        </instance>
+        <instance moduleIdRef="RFM95W_LoRa_Module_v1-2-improved-tht_1" modelIndex="5786" path="/Users/toddbu/Documents/Fritzing/parts/user/RFM95W_LoRa_Module_v1-2-improved-tht_1.fzp">
+            <views/>
+        </instance>
+    </instances>
+</module>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="1.0.1rc.2023-09-04.CD-1653-0-8d480a18" icon="Search.png" search="esp32">
+    <title>Search</title>
+    <instances>
+        <instance moduleIdRef="Heltec_WiFi_LoRa_32_V2" modelIndex="8177" path="/Applications/Fritzing.app/Contents/Resources/fritzing-parts/core/Heltec_WiFi_LoRa_32_V2.fzp">
+            <property name="part number" value="HTIT-WB32LA"/>
+            <views>
+                <iconView layer="icon">
+                    <geometry z="0" x="-1" y="-1"/>
+                </iconView>
+            </views>
+        </instance>
+    </instances>
+</module>

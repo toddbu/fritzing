@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module moduleId="rfm95w_386bd74672d4a9910f11db2572040f30_2" fritzingVersion="0.9.0b" referenceFile="RFM12b_HopeRF_Transceiver_fix.fzp">
+ <version>4</version>
+ <author>Tim Berger</author>
+ <title>RFM95W LoRa Module</title>
+ <label>RFM95W</label>
+ <date>Sa Jun 13 2020</date>
+ <tags>
+  <tag>HopeRF</tag>
+  <tag>RF Transceiver</tag>
+  <tag>rfm95</tag>
+  <tag>LoRa</tag>
+ </tags>
+ <properties>
+  <property name="pins">16</property>
+  <property name="family">RFM9xW LoRa Modules</property>
+  <property name="variant">868MHz / 915MHz</property>
+  <property name="layer"></property>
+  <property name="part number"></property>
+ </properties>
+ <description>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;span style=" font-size:8pt;">RF Transceiver by Hope RF.  Well supported Arduino libraries are available. This Low Power Long Range Transceiver Module for the frequencies 868MHz and 915MHz and it is also available in other versions.&lt;/span>&lt;/p>&lt;/body>&lt;/html></description>
+ <views>
+  <iconView>
+   <layers image="icon/rfm95w_0b6872cf171d56f4a61922788eff9098_8_icon.svg">
+    <layer layerId="icon"/>
+   </layers>
+  </iconView>
+  <breadboardView>
+   <layers image="breadboard/rfm95w_0b6872cf171d56f4a61922788eff9098_8_breadboard.svg">
+    <layer layerId="breadboard"/>
+   </layers>
+  </breadboardView>
+  <schematicView>
+   <layers image="schematic/rfm95w_0b6872cf171d56f4a61922788eff9098_8_schematic.svg">
+    <layer layerId="schematic"/>
+   </layers>
+  </schematicView>
+  <pcbView>
+   <layers image="pcb/rfm95w_0b6872cf171d56f4a61922788eff9098_8_pcb.svg">
+    <layer layerId="copper1"/>
+    <layer layerId="silkscreen"/>
+   </layers>
+  </pcbView>
+ </views>
+ <connectors>
+  <connector id="connector3" type="pad" name="4 SCK">
+   <description>SPI Clock input</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector3pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector3terminal" svgId="connector3pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" terminalId="connector3terminal" svgId="connector3pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector4" type="pad" name="5 NSS (CS)">
+   <description>SPI Chip select input</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector4pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector4terminal" svgId="connector4pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" terminalId="connector4terminal" svgId="connector4pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector5" type="pad" name="6 RESET">
+   <description>Reset trigger input</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector5pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector5terminal" svgId="connector5pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" terminalId="connector5terminal" svgId="connector5pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector6" type="pad" name="7 DIO5">
+   <description>Digital I/O, software configured</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector6pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector6terminal" svgId="connector6pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" terminalId="connector6terminal" svgId="connector6pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector7" type="pad" name="8 GND">
+   <description>Ground</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector7pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector7terminal" svgId="connector7pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" terminalId="connector7terminal" svgId="connector7pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector8" type="pad" name="9 ANT">
+   <description>RF signal output/input (antenna pin)</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector8pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector8terminal" svgId="connector8pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" terminalId="connector8terminal" svgId="connector8pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector9" type="pad" name="10 GND">
+   <description>Ground</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector9pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector9terminal" svgId="connector9pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" terminalId="connector9terminal" svgId="connector9pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector10" type="pad" name="11 DIO3">
+   <description>Digital I/O, software configured</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector10pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector10terminal" svgId="connector10erminal"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" terminalId="connector10terminal" svgId="connector10pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector11" type="pad" name="12 DIO4">
+   <description>Digital I/O, software configured</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector11pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector11terminal" svgId="connector11pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" terminalId="connector11terminal" svgId="connector11pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector12" type="pad" name="13 3.3V">
+   <description>Supply Voltage</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector12pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector12terminal" svgId="connector12pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" terminalId="connector12terminal" svgId="connector12pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector0" type="pad" name="1 GND">
+   <description>Ground</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector0"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector0terminal" svgId="connector0pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" terminalId="connector0terminal" svgId="connector0pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector13" type="pad" name="14 DIO0">
+   <description>Digital I/O, software configured</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector13pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector13terminal" svgId="connector13pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" terminalId="connector13terminal" svgId="connector13pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector1" type="pad" name="2 MISO">
+   <description>SPI Data output</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector1pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector1terminal" svgId="connector1pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" terminalId="connector1terminal" svgId="connector1pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector2" type="pad" name="3 MOSI">
+   <description>SPI Data input</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector2pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector2terminal" svgId="connector2pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" terminalId="connector2terminal" svgId="connector2pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector15" type="pad" name="15 DIO1">
+   <description>Digital I/O, software configured</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector15pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector15terminal" svgId="connector15pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" terminalId="connector15terminal" svgId="connector15pin"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector16" type="pad" name="16 DIO2">
+   <description>Digital I/O, software configured</description>
+   <views>
+    <breadboardView>
+     <p layer="breadboard" svgId="connector16pin"/>
+    </breadboardView>
+    <schematicView>
+     <p layer="schematic" terminalId="connector16terminal" svgId="connector16pin"/>
+    </schematicView>
+    <pcbView>
+     <p layer="copper1" terminalId="connector16terminal" svgId="connector16pin"/>
+    </pcbView>
+   </views>
+  </connector>
+ </connectors>
+ <url>https://www.hoperf.com/modules/lora/RFM95.html</url>
+</module>
